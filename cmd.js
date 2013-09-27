@@ -21,4 +21,4 @@ function visit(old) {
 
 var result = visit(json);
 
-fs.writeFile(filename, JSON.stringify(result, null, '  '));
+fs.writeFile(filename, JSON.stringify(result, null, '\t'));
