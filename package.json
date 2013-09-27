@@ -1,18 +1,28 @@
 {
-  "name": "sort-json",
-  "version": "0.0.1",
-  "description": "Takes a json-file and return a copy of the same file, but sorted",
+  "name": "sort-json-alt",
+  "version": "0.0.2",
+  "description": "Takes a json-file and return a copy of the same file, but sorted.",
   "main": "cmd.js",
   "dependencies": {},
   "bin": {
-    "sort-json": "./cmd.js"
+    "sort-json-alt": "./cmd.js"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stanosmith/sort-json.git"
+  },
   "author": "David Björklund <david.bjorklund@gmail.com>",
   "license": "MIT",
-  "preferGlobal": true
+  "preferGlobal": true,
+  "keywords": [
+    "json",
+    "sort"
+  ],
+  "bugs": {
+    "url": "https://github.com/stanosmith/sort-json/issues"
+  }
 }
